@@ -36,10 +36,90 @@ My Public Info Project
 :Others:          `overview <..>`__
 
 
+.. _Martin: martin.bless@mbless.de
+
+Hallo Ephraim,
+
+Martin_ hier. Worum geht's?
+
+#. Dies ist dein persÃ¶nliches TYPO3-Documentation-Starter-Project.
+   Mach damit was du willst. Schreib eine Notiz, lÃ¶sch die Unterordner,
+   leg andere Unterordner an, mach alles kaputt: Das ist in Ordnung.
+
+#. Nur Du und ich haben Schreibzugriff.
+
+#. Niemals zuvor war es einfacher, in diesem Format etwas zu schreiben:
+
+   - Du gehst auf die `Website <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/>`__
+     und dort zu DEINEM Projekt.
+     
+   - Geh z. B. auf die "Hello world!" Seite.
+   
+   - DrÃ¼cke "Edit me on Github". Auf Github muss du angemeldet sein und darauf achten, dass du die
+     Einladung zur Mitarbeit an diesem Repository auch angenommen hast.
+     
+   - Dann kommst du sofort zum Editierformular. Schreibe ein Wort und drÃ¼cke "Save". Dadurch `wird
+     gleichzeitig der Docs-Server informiert.`__
+     
+   - Warte ein, zwei oder drei Minuten. Der Cronjob interessiert sich jede Minute dafÃ¼r, ob er etwas
+     fÃ¼r dich tun kann. Dann mach einen Reload im Browser.
+     
+     .. note::
+     
+        Kein Fork, kein Pull Request, keine Commit-Message, keinerlei Installation
+        erforderlich! Sehen, Ã¤ndern, speichern. Und warten - das ist bestimmt das Schwerste.
+        Aber nur ganz kurze Zeit.
+        
+   - Ja, das reST-Format (reStructuredText__) ist 
+     schon ganz schÃ¶n pingelig. DafÃ¼r arbeitet es aber auch sematisch, gestaltet den
+     Quelltext optimal lesbar und kann Dinge, von denen man sonst nur trÃ¤umen kann.
+     
+   - Wenn etwas nicht so funktioniert wie erwartet:
+     
+     .. tip:: Schau ins Protokoll!
+
+        Jedes Doku-Projekt, dass mit der neuen TYPO3-Documentation_Toolchain gerendert wird,
+        erhÃ¤lt auch einen `/_buildinfo` Ordner, den man hier im Web aufrufen kann. Darin ist
+        ganz besonders die Datei :file:`warnings.txt` von Interesse, denn sie enthÃ¤lt die
+        Sphinx_ Warnungen und Fehlermeldungen.
+        
+     HÃ¤nge also in der Adresszeile des Browsers an die Start-URL deines Projektes ein
+     `/_buildinfo/`. Oder fÃ¼ge direkt in deine Doku, zumindest fÃ¼r die Entwicklungszeit,
+     einen Link ein: ```buildinfo <_buildinfo>`__`` Der sollte dann so funktionieren: 
+     `buildinfo <_buildinfo>`__
+     
+   - Die Kapitel (=Unterordner) :doc:`Hyperlinks </Hyperlinks/Index>` und
+     :doc:`reStructuredText </reStructuredText/Index>` sollen Hilfestellung beim Einstieg
+     sein. Sie kÃ¶nnen natÃ¼rlich bedenkenlos gelÃ¶scht werden.
+     
+Wenn mir mehr einfÃ¤llt oder Fragen auftauchen schreibe ich mehr in der
+`Mastervorlage des Starter-Projektes`__. Dort kann man also bei Bedarf
+reinschauen.
+
+Viel SpaÃŸ, viel Erfolg, und bitte: Weitersagen! Wir benÃ¶tigen mÃ¶glichst viele Mitstreiter
+in der Community, die sich trauen, "Edit me on Github" zu drÃ¼cken, wenn sie in der Doku
+einen Fehler entdecken.
+
+TYPO3 - Inspire people to share!
+
+Martin_
+
+        
+        
+
+.. _Sphinx: http://www.sphinx-doc.org/
+
+.. Dies sind anonyme Hyperlinks. Jeder Link im Text, der durch ZWEI anhÃ¤ngende Unterstriche
+   gebildet wird, verbraucht den nÃ¤chsten aus dieser Liste.
+
+__ https://docs.typo3.org/typo3cms/RenderTYPO3DocumentationGuide/ProjectsOnGithub/Index.html
+__ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/reStructuredText/Index.html
+__ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/
+
+
 .. toctree::
    :hidden:
 
    HelloWorld/Index
    Hyperlinks/Index
    reStructuredText/Index
-
